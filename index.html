@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STOP WATCH</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/gymlogo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<h2> STOP WATCH </h2>
+<div class="box">
+	<div class="timer">
+		<h1 id="min">0</h1>
+		<h1>:</h1>
+		<h1 id="sec">0</h1>
+		<h1>:</h1>
+		<h1 id="mil">0</h1>
+	</div>
+	<br><br><br>
+	<div class="but">
+		<button onclick="start()" id="startBut">Start</button>
+		<button onclick="pause()">Pause</button>
+		<button onclick="reset()">Reset</button>
+	</div>
+	<br>
+	<div class="lap">
+		<button onclick="lap()">Lap</button>
+		<button onclick="clearLap()">Reset Lap</button>
+	</div>
+	<br><br>
+	<div>
+		<ul id="lap"></ul>
+	</div>
+</div>
+<br><br><br>
+<h2> By <em><span>Zeerak Murtaza</span></em> </h2>
+<script src="./js/custom.js"></script>
+</body>
+</html>

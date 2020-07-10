@@ -1,0 +1,105 @@
+
+body{
+	text-align: center; 	
+	background-color: black;
+}
+h2{
+	background-color: #fc4e4e;
+	color: black;
+	font-size: 1.9em;
+	width: 101.2%;
+	height: fit-content;
+	text-align: center;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+.box{
+	width: 77%;
+	height: fit-content;
+	margin: auto;
+	margin-top: 5%;
+}
+.timer{
+	width: 57%;
+	height: 133px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #fc4e4e;
+	border-radius: 1%;
+}
+.timer h1{
+	background-color: black;
+	color: #fc4e4e;
+	margin: 15px;
+	display: inline-block;
+	width: 115px;
+	font-size: 5em;
+	height: 100px;
+	border-radius: 5%;
+}
+.timer h1:nth-child(2), .timer h1:nth-child(4){
+	width: 35px;
+}
+button{
+	font-size: 1.4em;
+	margin: 5px;
+	background-color: #fc4e4e;
+	border: 5px double #fc4e4e;
+	border-radius: 5%;
+}
+ul{
+	width: 77%;
+	margin: auto;
+	background-color: #fc4e4e;
+}
+ul li{
+	font-size: 1.5em;
+	border-bottom: 7px solid black;
+}
+button:focus{
+	transition: all 0.3s;
+    box-shadow: 0 0 10px #fc4e4e, 0 0 25px #fc4e4e, 0 0 45px #fc4e4e;
+}
+h2 span{
+	font-variant: small-caps;
+	position: relative;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+@media screen and (max-width: 380px) {
+
+body{
+	width: 100%;
+}
+.box{
+	width: 100%;
+}	
+h2{
+	width: 102%;
+}
+.timer{
+	width: 99%;
+	height: 103px;
+	margin: 0px 0px;
+	margin-left: -2px;
+	padding-top: 5px;
+}
+.timer h1{
+	font-size: 2.9em;
+	height: 66px;
+	margin: 3.5px;
+	padding: 10px;
+}
+.timer h1:nth-child(2), .timer h1:nth-child(4){
+	padding: 2px;
+	padding-top: 10px;
+	height: 74px;
+}
+button{
+	font-weight: bold;
+}
+
+}
